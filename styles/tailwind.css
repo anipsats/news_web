@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+
+html,
+body {
+  font-size: 18px;
+  @apply bg-neutral-very-light-gray;
+}
+
+.primary-color {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 160, 255);
+}
+
+@tailwind utilities;
+
+@layer utilities {
+  @variants hover, focus {
+    .button-brightness {
+      box-shadow: inset 0 0 28px 12px rgba(255, 255, 255, 0.3);
+    }
+    .gradient-border-bottom {
+      color: hsl(233, 26%, 24%);
+      border-width: 0 0 4px 0;
+      border-style: solid;
+      border-image: linear-gradient(
+          to right,
+          rgba(0, 160, 255),
+          rgba(0, 160, 255)
+        )
+        3;
+    }
+  }
+}
