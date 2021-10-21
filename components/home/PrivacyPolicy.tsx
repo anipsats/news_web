@@ -48,10 +48,11 @@ export default function PrivacyPolicy() {
           When you register for an Account, we may ask for your contact
           information, including items such as name, email address, and social
           media profile.
-          
-          We use your phone device ID to serve you persoalised news.
         </p>
-
+        <p className="my-2">
+          We use your phone device ID to serve you personalised news.
+        </p>
+       
         <h2 className="my-4 font-semibold text-l">
           How we use your information
         </h2>
