@@ -48,6 +48,8 @@ export default function PrivacyPolicy() {
           When you register for an Account, we may ask for your contact
           information, including items such as name, email address, and social
           media profile.
+          
+          We use your phone device ID to serve you persoalised news.
         </p>
 
         <h2 className="my-4 font-semibold text-l">
@@ -72,6 +74,7 @@ export default function PrivacyPolicy() {
           </li>
           <li className="mb-1">We do not send you emails</li>
           <li className="mb-1">Find and prevent fraud</li>
+          <li className="mb-1">newsta.in and daakiya.co.in are both owned by Newsta Pvt Ltd. We use them to host our servers for serving news to the App.</li>
         </ul>
 
         <h2 className="my-4 font-semibold text-l">Log Files</h2>
