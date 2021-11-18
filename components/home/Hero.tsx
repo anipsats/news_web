@@ -11,11 +11,11 @@ export default function Hero() {
         <div className="h-full flex flex-col justify-end pb-4 lg:pb-0 lg:w-96 lg:justify-center">
           <div className="h-1/2 flex flex-col justify-center items-center text-center lg:items-start lg:text-left">
             <h1 className="text-4xl lg:text-5xl text-primary-dark-blue pb-5">
-              News app for everyone
+              Get straight to the point
             </h1>
             <p className="text-neutral-grayish-blue text-xs lg:text-base leading-5 mb-7">
-              A news app where you get Short, Factual and Connected news
-              stories, to stay updated with what's happening around you.
+              Short, Factual and Connected news stories. 
+              Stay updated with what's happening around you.
             </p>
             <button
               onClick={() =>
